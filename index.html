@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header class="header">
+    <div class="logo">
+    <a href="">DAVE SMITH</a>
+    </div>
+    <div class="nav">
+    <nav>
+    <ul>
+        <li> 
+        <!-- link one -->
+        <a href="#new"> New </a>
+        </li>
+        <li>
+        <!-- link two -->
+            <a href="#ladies"> Ladies </a>
+        </li>
+        <li>
+        <!-- link three -->
+        <a href="#mens"> Men's </a>
+        </li>
+        <li>
+        <!-- link four -->
+        <a href="#childrens"> Children's </a>
+        </li>
+    </ul>
+    </nav>
+    </div>
+    <div class="navRight">
+    <div class="freeDelivery">
+    <img class="navIcon" src="assets/truck.png" alt="Free Delivery">
+    <div style="display: inline-block;">
+        <span class="freeDel1">FREE DELIVERY</span> <br>
+        <span class="freeDel2">on orders over $60*</span>
+    </div>
+    </div>
+    <div class="navIcons">
+        <a href=""><img class="navIcon2" src="assets/heart.png" alt="Liked Products"></a>
+        <a href=""><img class="navIcon2" src="assets/person.png" alt="My Account"></a>
+        <a href=""><img class="navIcon2" src="assets/bag.png" alt="Cart"></a>
+    </div>
+    </div>
+    <div class="mobileNav">
+        <a href="javascript:void(0);" onclick="mobileNav()"><img class="navIcon5" src="assets/bars-solid.svg" alt="Mobile Navigation"></a>
+    </div>
+</header>
+<div id="myLinks" style="display: none; border-bottom: 1px solid gray; padding-bottom: 15px;">
+        <div class="nav2">
+            <nav>
+            <ul >
+                <li> 
+                <!-- link one -->
+                <a href="#new"> New </a>
+                </li>
+                <li>
+                <!-- link two -->
+                    <a href="#ladies"> Ladies </a>
+                </li>
+                <li>
+                <!-- link three -->
+                <a href="#mens"> Men's </a>
+                </li>
+                <li>
+                <!-- link four -->
+                <a href="#childrens"> Children's </a>
+                </li>   
+            </ul>
+            </nav>
+        </div>
+        <div class="navIcons">
+            <a href=""><img class="navIcon2" src="assets/heart.png" alt="Liked Products"></a>
+            <a href=""><img class="navIcon2" src="assets/person.png" alt="My Account"></a>
+            <a href=""><img class="navIcon2" src="assets/bag.png" alt="Cart"></a>
+        </div>
+</div>
+<body class="body">
+<div class="mainImage">
+<div class="background" style="flex: 1">
+
+</div>
+<div class="mainAll">
+<div class="mainTitle">
+<span>GIFTS IN TIME FOR CHRISTMAS</span>
+</div>
+<div class="guaranteeTime">
+<span class="guaranteeTime1">guaranteed delivery ends in:</span><br>
+<span class="guaranteeTime2" id="countdown"></span>
+</div>
+<div class="buttons">
+<a href="" ><button class="button">LADIES</button></a>
+<a href=""style="margin-left: 20px; margin-right: 20px;"><button class="button">MENS</button></a>
+<a href=""><button class="button">CHILDRENS</button></a>
+</div>
+</div>
+<div class="background" style="flex: 1">
+
+</div>
+</div>
+<div class="smallFeatures">
+<div class="smallFeaturesTitle">
+<span class="smallFeaturesText">Top Festive Picks</span>
+</div>
+<div class="dots">
+<span class="dot" style="background-color: #2a6140;"></span>
+<span class="dot" style="background-color: #cadaa2; margin-left: 5px; margin-right: 5px;"></span>
+<span class="dot" style="background-color: #d03536;"></span>
+</div>
+<div class="pickedProducts">
+<div class="pickedProduct">
+<img src="assets/picked1.png" alt="Ladies Sock"><br>
+<span class="pickedProductTop">3 for 2</span><br>
+<a href="">LADIES SOCK ></a>
+</div>
+<div class="pickedProduct">
+    <div class="pickedProductImage" style="position: relative;  display: inline-block">
+        <img src="assets/picked2.png" alt="Men Country Check Shirts">
+        <span style="position: absolute; top: 0px; left: 0px; background-image: url(assets/Layer\ 124@1X.png); color: white; padding: 5px 10px; font-size: 18px; text-align: center; background-size: 100% 100%;"><span style="font-size: 26px">2</span> for<br>£<span style="font-size: 26px;">25</span></span><br>
+    </div><br>
+<span class="pickedProductTop">2 for £25</span><br>
+<a href="">MEN COUNTRY CHECK SHIRTS ></a>
+</div>
+<div class="pickedProduct">
+<img src="assets/picked3.png" alt="Ladies Tweed Blazers"><br>
+<span class="pickedProductTop">£150</span><br>
+<a href="">LADIES TWEED BLAZERS ></a>
+</div>
+<div class="pickedProduct">
+<div class="pickedProductImage" style="position: relative; display: inline-block">
+    <img src="assets/picked4.png" alt="Killburn Yard Boots">
+    <span style="position: absolute; top: 0px; left: 0px; background-color:#3d7dca; color: white; padding: 5px 10px; font-size: 18px;">NEW</span><br>
+</div><br>
+<span class="pickedProductTop">£60</span><br>
+<a href="">KILLBURN YARD BOOTS ></a>
+</div>
+</div>
+</div>
+<div class="mediumFeatures">
+<div class="mediumFeaturesTitle">
+<span class="mediumFeaturesText">Gifts For The Whole List</span>
+</div>
+<div class="dots">
+<span class="dot" style="background-color: #d03536;"></span>
+<span class="dot" style="background-color: #1d2945; margin-left: 5px; margin-right: 5px;"></span>
+<span class="dot" style="background-color: #e76767;"></span>
+</div>
+<div class="pickedCollections">
+<div class="pickedCollection">
+<img src="assets/pickedCol1.png" alt="Gifts for Horse Lovers"><br>
+<div class="buttonsCollec">
+    <a href="" ><button>GIFTS FOR HORSE LOVERS ></button></a>
+</div>
+</div>
+<div class="pickedCollection">
+<img src="assets/pickedCol2.png" alt="Gifts For Farmers"><br>
+<div class="buttonsCollec">
+    <a href="" ><button>GIFTS FOR FARMERS ></button></a>
+</div>
+</div>
+<div class="pickedCollection">
+<img src="assets/pickedCol3.png" alt="Gifts for Dog Walkers"><br>
+<div class="buttonsCollec">
+    <a href="" ><button>GIFTS FOR DOG WALKERS ></button></a>
+</div>
+</div>
+</div>
+</div>
+<div class="giftCard">
+<div class="giftCardContent">
+    <span class="giftCardText">Give The Gift of Choice</span>
+    <div class="buttonsGift">
+        <a href="" ><button>GIFT CARDS ></button></a>
+    </div>
+</div>
+<img src="assets/gift.png" alt="Free Delivery">
+</div>
+<div class="extendedReturns">
+<div class="extendedReturns1">
+    <span>Extended Christmas Returns & FREE Delivery Over £60</span>
+</div>
+<span class="extendedReturns2">for peace of mind, we're extending returns up to the end of January on all festive puchases</span>
+</div>
+</body>
+<footer class="footer">
+<div class="footerPart">
+    <span class="footerTitle">MORE INFO</span><br>
+    <div class="footerLinks">
+        <a href="" class="footerLink">about us</a>
+        <a href="" class="footerLink">delivery info</a>
+        <a href="" class="footerLink">FAQs</a>
+        <a href="" class="footerLink">terms and conditions</a>
+        <a href="" class="footerLink">privacy policy</a>
+        <a href="" class="footerLink">rydale jobs</a>
+        <a href="" class="footerLink">sitemap</a>
+    </div>
+</div>
+<div class="logoFooter" style="display: table; height: 100%; width: 100%; text-align: center;">
+    <a href="" style="display: table-cell; vertical-align: middle;">DAVE SMITH</a>
+</div>
+<div class="footerPart">
+        <span class="footerTitle">FIND US</span><br>
+        <div class="footerLinks2">
+            <div class="footerLinks2Top">
+                <a href="" class="footerLink2"><img class="navIcon3" src="assets/map-marker-alt-solid.svg" alt="Location"><span style="padding-top: 3px;">rydale stockists</span></a>
+                <a href="" class="footerLink2"><img class="navIcon3" src="assets/flag-solid.svg" alt="Shows & Events"><span style="padding-top: 3px;">shows & events</span></a>
+                <a href="" class="footerLink2"><img class="navIcon3" src="assets/phone-alt-solid.svg" alt="Phone Number"><span style="padding-top: 3px;">01377337160</span></a>
+                <a href="" class="footerLink2"><img class="navIcon3" src="assets/envelope-regular.svg" alt="Contact"><span style="padding-top: 3px;">contact us</span></a>
+            </div>
+            <div class=footerSocial>
+                <a href="" class="footerLink"><img class="navIcon4" src="assets/facebook-f-brands.svg" alt="Facebook"><span style="padding-top: 3px;"></a>
+                <a href="" class="footerLink"><img class="navIcon4" src="assets/twitter-brands.svg" alt="Twitter"><span style="padding-top: 3px;"></a>
+                <a href="" class="footerLink"><img class="navIcon4" src="assets/instagram-brands.svg" alt="Instagram"><span style="padding-top: 3px;"></a>
+                <a href="" class="footerLink"><img class="navIcon4" src="assets/pinterest-brands.svg" alt="Pinterest"><span style="padding-top: 3px;"></a>
+                <a href="" class="footerLink footerLinkBlog">Blog</a>
+
+            </div>
+        </div>
+</div>
+</footer>
+</html>
+
+<script>
+
+CountDownTimer('12/21/2020 00:00 AM', 'countdown');
+
+function CountDownTimer(dt, id)
+{
+    var end = new Date(dt);
+
+    var _second = 1000;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+    var timer;
+
+    function showRemaining() {
+        var now = new Date();
+        var distance = end - now;
+        if (distance < 0) {
+            clearInterval(timer);
+            document.getElementById(id).innerHTML = 'EXPIRED!';
+            return;
+        }
+        var days = Math.floor(distance / _day);
+        var hours = Math.floor((distance % _day) / _hour);
+        var minutes = Math.floor((distance % _hour) / _minute);
+        var seconds = Math.floor((distance % _minute) / _second);
+
+        document.getElementById(id).innerHTML = days + '&nbsp; : &nbsp;';
+        document.getElementById(id).innerHTML += hours + '&nbsp; : &nbsp;';
+        document.getElementById(id).innerHTML += minutes;
+    }
+
+    timer = setInterval(showRemaining, 1000);
+}
+
+function mobileNav() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+</script>

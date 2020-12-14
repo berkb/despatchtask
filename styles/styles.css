@@ -1,0 +1,690 @@
+@media only screen and (max-width: 920px) {
+  .mainTitle {
+    font-size: 50px;
+  }
+  .background {
+    display: none;
+  }
+  .mainAll {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .nav {
+    display: none;
+  }
+  .freeDelivery {
+    display: none;
+  }
+  .pickedProducts {
+    margin-top: 10px;
+    font-family: 'Lato-Bold';
+  }
+  .pickedProduct {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .pickedProduct img {
+    border-radius: 25px;
+  }
+  .pickedCollections {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    font-family: 'Lato-Regular';
+    font-weight: bold;
+  }
+  .pickedCollection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .pickedCollection img {
+    border-radius: 25px;
+    max-width: 90%;
+  }
+  .giftCard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .buttonsCollec {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .buttonsCollec button {
+    background-color: #21314e;
+    color: white;
+    font-family: 'Lato-Regular';
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 300px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+  }
+  .giftCard {
+    margin-top: 50px;
+  }
+  .giftCardContent {
+    text-align: center;
+  }
+  .giftCardContent img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .buttonsGift {
+    text-align: center;
+  }
+  .buttonsGift {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+  .logoFooter {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .extendedReturns {
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footerLink {
+    overflow: hidden;
+    /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid;
+    /* Chrome, Safari, Opera */
+    /* Firefox */
+    break-inside: avoid;
+    /* IE 10+ */
+    break-inside: avoid-column;
+  }
+  .footerLinks {
+    -webkit-column-count: 2;
+            column-count: 2;
+    text-align: left;
+  }
+  .footerLinks2 {
+    text-align: left;
+  }
+  .footerLink {
+    margin-top: 5px;
+    text-decoration: none;
+    bottom: 0;
+  }
+  .footerPart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footerLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footerLinks2Top {
+    margin-left: 20%;
+  }
+  .footerLinkBlog {
+    font-style: italic;
+    padding-top: 5px;
+  }
+  .navRight {
+    display: none;
+  }
+  .mobileNav {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .logo {
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
+    padding-bottom: 10px;
+  }
+  .navIcons {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .mainAll {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  .mainTitle {
+    font-size: 75.09px;
+  }
+  .pickedProducts {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Lato-Bold';
+  }
+  .pickedProduct {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .pickedCollections {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Lato-Regular';
+    font-weight: bold;
+  }
+  .pickedCollection {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .buttonsCollec {
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 50px;
+  }
+  .buttonsCollec button {
+    background-color: #21314e;
+    color: white;
+    font-family: 'Lato-Regular';
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 400px;
+    border: none;
+    font-size: 25px;
+  }
+  .giftCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+  }
+  .buttonsGift {
+    text-align: right;
+    margin-top: 15px;
+    padding-bottom: 50px;
+  }
+  .logoFooter {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  }
+  .giftCard img {
+    display: inline-block;
+  }
+  .extendedReturns {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 50% 25%;
+        grid-template-columns: 25% 50% 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+  }
+  .footerLinkBlog {
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 5px;
+  }
+  .pickedProducts img {
+    width: 100%;
+    height: auto;
+  }
+  .pickedCollection img {
+    width: 100%;
+    height: auto;
+  }
+  .buttonsCollec button {
+    width: 100%;
+    height: auto;
+  }
+  .mobileNav {
+    display: none;
+  }
+  .logo {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  .navIcons {
+    display: inline-block;
+    padding-left: 20px;
+  }
+}
+
+.freeDelivery {
+  display: inline-block;
+}
+
+.footerPart {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.footerLink {
+  padding-bottom: 5px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 8px;
+  color: black;
+  font-size: 27px;
+  font-family: 'DroidSerif-Bold';
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo a:visited {
+  color: black;
+}
+
+.logoFooter {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  text-align: center;
+  margin-top: 11px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.logoFooter a {
+  text-decoration: none;
+}
+
+.logoFooter a:visited {
+  color: black;
+}
+
+.nav {
+  width: 50vw;
+  -webkit-box-flex: 16;
+      -ms-flex: 16;
+          flex: 16;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav li {
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+}
+
+.nav a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.nav2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav2 li {
+  list-style-type: none;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.nav2 li:hover {
+  text-decoration: underline;
+}
+
+.nav2 a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.navRight {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.freeDel1 {
+  color: gray;
+}
+
+.freeDel2 {
+  color: gray;
+  font-style: italic;
+}
+
+.navIcon {
+  max-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+}
+
+.navIcon2 {
+  max-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  padding-right: 12.5px;
+  padding-left: 12.5px;
+}
+
+.navIcon3 {
+  max-height: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.navIcon4 {
+  max-height: 25px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.navIcon5 {
+  max-height: 50px;
+}
+
+.mainImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background {
+  background-image: radial-gradient(#212121 20%, transparent 20%), radial-gradient(#fafafa 20%, transparent 20%);
+  background-color: white;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+}
+
+.mainTitle {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lato-Regular';
+  color: #21314E;
+  font-weight: bold;
+}
+
+.guaranteeTime {
+  color: #D03536;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.guaranteeTime1 {
+  font-family: 'Lato-LightItalic';
+  font-size: 24px;
+}
+
+.guaranteeTime2 {
+  font-size: 65px;
+  font-family: 'Lato-Regular';
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.buttons button {
+  background-color: #21314e;
+  color: white;
+  font-family: 'Lato-Bold';
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 300px;
+  border: none;
+  font-size: 26px;
+}
+
+.buttons button:hover {
+  background-color: red;
+}
+
+.buttonsGift button {
+  background-color: #21314e;
+  color: white;
+  font-family: 'Lato-Regular';
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+}
+
+.buttonsGift button:hover {
+  background-color: red;
+}
+
+.button {
+  margin: 5px;
+}
+
+.smallFeatures {
+  margin-top: 50px;
+}
+
+.smallFeaturesTitle {
+  font-size: 26px;
+  text-align: center;
+  font-family: DroidSerif;
+}
+
+.pickedProductTop {
+  font-style: italic;
+  font-family: Lato-BoldItalic;
+  font-size: 20px;
+}
+
+.mediumFeatures {
+  margin-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mediumFeaturesTitle {
+  font-size: 25px;
+  text-align: center;
+  font-family: Lato-Regular;
+}
+
+.dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.giftCardContent {
+  margin-right: 20px;
+  padding-top: 3%;
+}
+
+.giftCardText {
+  font-family: Lato-Regular;
+  font-size: 40px;
+}
+
+.extendedReturns {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  background-color: #21314E;
+  color: white;
+}
+
+.extendedReturns1 {
+  font-size: 30px;
+  font-family: DroidSerif;
+  padding-bottom: 29px;
+}
+
+.extendedReturns2 {
+  font-size: 24px;
+  font-family: Lato-LightItalic;
+}
+
+.footerTitle {
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  font-family: Lato-Regular;
+  color: gray;
+}
+
+.footerLinks {
+  margin-top: 10px;
+}
+
+.footerLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: gray;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+.footerLink2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  color: gray;
+  text-decoration: none;
+}
+
+.footerLink2:hover {
+  text-decoration: underline;
+}
+
+.footerSocial {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 10px;
+}
+
+.footerPart {
+  font-family: Lato-Regular;
+}
+
+.logoFooter {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: DroidSerif-Bold;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.pickedProduct a {
+  color: black;
+  text-decoration: none;
+}
+
+.pickedProduct a:hover {
+  text-decoration: underline;
+}
+
+.buttonsCollec button:hover {
+  background-color: red;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  src: url(../fonts/DroidSerif.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'DroidSerif-Bold';
+  src: url(../fonts/DroidSerif-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Lato-LightItalic';
+  src: url(../fonts/Lato-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Lato-BoldItalic';
+  src: url(../fonts/Lato-BoldItalic.ttf) format("truetype");
+}
+/*# sourceMappingURL=styles.css.map */
